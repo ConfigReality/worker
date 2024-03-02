@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js",
     "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.26.1"
+    "amqp": "^0.2.7",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.1",
+    "fastq": "^1.17.1",
+    "pg": "^8.11.3",
+    "telegraf": "^4.16.3",
+    "undici": "^6.6.2"
   }
 }
